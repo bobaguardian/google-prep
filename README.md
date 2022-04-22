@@ -4,7 +4,7 @@ A collection of notes and code aligned with google's interview preparation.
 
 ## Materials
 - [Prepare for Your Google Interview Video](https://www.youtube.com/watch?v=6ZZX9iIgFoo&list=PLllx_3tLoo4c_aR8RKOOnizL5LiUH02YF&index=13&t=0s)
-- [Cracking The Coding Interview](https://github.com/yogathanh99/Books/blob/master/Cracking.the.Coding.Interview.6th.Edition.pdf)
+- [Cracking The Coding Interview](https://github.com/yogathanh99/Books/blob/master/Cracking.the.Coding.Interview.6th.Edition.pdf) 1-5, 7-10
 - Recommended practice sites: [Topcoder](https://www.topcoder.com/), [Leetcode](https://leetcode.com/) - Try completing 1 easy, 1 hard within 45 min.
 
 
