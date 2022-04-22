@@ -1,4 +1,6 @@
-# 1. Sliding Window
+# [14 Patterns to Any Coding Interview Question](https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed)
+
+## 1. Sliding Window
 Start with first element and keep shifting to the right by one, adjusting the length of the window according to the problem (grows or shrinks)
 
 Problems:
@@ -8,4 +10,6 @@ Problems:
 Common Problems:
 - Maximum sum subarray of size K
 - Longest substring with K distinct characters
-- String anagramsW
+- String anagrams
+
+## 2. Two Pointers/Iterators
