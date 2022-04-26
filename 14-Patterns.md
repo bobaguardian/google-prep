@@ -13,3 +13,14 @@ Common Problems:
 - String anagrams
 
 ## 2. Two Pointers/Iterators
+Two pointers iterate through the data structure in tandem until one or both pointers hit a certain condition.  This would help achieve a linear time complexity while a brute force/naive solution will produce O(n^2).  In many cases, 2 pointers can help you find a solution with better space or runtime complexity
+
+Problems:
+- useful when searching for pairs in a sorted array/linked list
+- When dealing with sorted arrays/linked lists and need to find a set of elements that fulfill certain constraints
+- Set of elements in array is a pair, triplet or subarray
+
+Common Problems:
+- Squaring a sorted array
+- Triplets that sum to zero
+- Comparing strings that contain backspaces
