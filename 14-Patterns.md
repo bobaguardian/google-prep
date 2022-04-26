@@ -24,3 +24,18 @@ Common Problems:
 - Squaring a sorted array
 - Triplets that sum to zero
 - Comparing strings that contain backspaces
+
+# 3. Fast and Slow Pointers
+AKA the Haire & Tortoise Algorithm - uses 2 pointers which move through an array at different speeds.  This approach is quite useful when dealing with cyclic linked lists/arrays.  Since the 2 pointers are moving at different speads, the 2 pointers are bound to meet.
+
+Problems:
+- Dealing with a loop in a linked list or array
+- When you need to know the position of a certain element or the overall length of a linked list
+- This approach compared to the 2 pointer approach:
+    - Use this for a singled linked list where you can't move in a backwards direction
+    - ex: use fast and slow when trying to determine if a linked list is a palindrome
+
+Common Problems:
+- Linked List Cycle
+- Palindrom Linked List
+- Cycle in a Circular Array
