@@ -57,3 +57,14 @@ Problems:
 Common Problems:
 - Intervals Intersection
 - Maximum CPU Load
+
+# 5. Cyclic Sort
+Deal with problems involving arrays containing numbers in a given range.  Iterate over the array one number at a time, and if the current number you're at is not at the correct index, swap it with the number at its correct index.
+
+Problems:
+- Involve a sorted array with numbers in a given range
+- If problem asks you to find the missing/duplicate/smallest number in a sorted/rotated array
+
+Common Problems:
+- Finding the Missing Number
+- Finding the Smallest Missing Positive Number
