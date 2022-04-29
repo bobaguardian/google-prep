@@ -39,3 +39,21 @@ Common Problems:
 - Linked List Cycle
 - Palindrom Linked List
 - Cycle in a Circular Array
+
+# 4. Merge Intervals
+Dealing with overlapping intervals.  Understanding and recognizzing these 6 cases will help you solve a wide range of problems from inserting intervals to optmiizing interval merges. Give 2 intervals a and b, there will be 6 different ways the two intervals can relate to each other:
+
+1. a and b do not overlap
+2. a and b overlap, b ends after a
+3. a completely overlaps b
+4. b and a overlap, a ends after b
+5. b completely overlaps a
+6. b and a do not overlap
+
+Problems:
+- Asked to produce a list with only mutually exclusive intervals
+- Hear the term "overlapping intervals"
+
+Common Problems:
+- Intervals Intersection
+- Maximum CPU Load
