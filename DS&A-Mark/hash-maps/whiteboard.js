@@ -9,7 +9,7 @@ arr.includes(8); // => false - O(n)
 const arr2 = [['arrows', 'common', 20], ['great sword', 'legendary', 1], ['fruit', 'uncommon', 2]];
 
 const newArr = [,,,,,]; // -> block of memory: c678-c681, constant lookup b/c we know the range in memory but not efficient w/ lots of data
-
+const linearArr = [,,,,,];
 
 // go through everything in the string and hash it
 // hashing the key goes into time complexity
@@ -38,19 +38,25 @@ const hash = {};
 const linearInsert = (key, val) => {
   const index = toHash(key);
   // arr[index] ? arr[index + 1] = val : arr[index] = val;
-  for(let i = index; i < arr.length + 1; i++) {
-    if (!newArr[i]) return newArr[i] = val;
+  for(let i = index; i < linearArr.length + 1; i++) {
+    if (!linearArr[i]) return linearArr[i] = val;
   }
 
 }
 
+// use buckets!: instead of moving over, add it to the bucket at the index
 const insert = (key, val) => {
-
+  const index = toHash(key);
+  if (!newArr[index]) newArr[index] = [];
+  newArr[index].push(val);
 }
+
+linearInsert('arrows', 'yes');
+linearInsert('sworra', 'no');
+linearInsert('sarrow', 'maybe');
+console.log(linearArr);
 
 insert('arrows', 'yes');
 insert('sworra', 'no');
-insert('sarrow', 'maybe');
-insert('sarrow', 'maybe');
 insert('sarrow', 'maybe');
 console.log(newArr);
