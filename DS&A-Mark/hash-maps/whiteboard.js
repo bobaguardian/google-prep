@@ -72,6 +72,8 @@ console.log(newArr[toHash('arrows')])
 
 // find a value given a key if there are collisions
 // O(m) time where m is the length of collisions at that hashed key index
+// its BASICALLY constant time => grand scheme of things very unlikely to get collisions
+// => amortizes to O(1)
 const find = key => {
   const index = toHash(key);
   if (newArr[index].length === 1) return newArr[index][1];
