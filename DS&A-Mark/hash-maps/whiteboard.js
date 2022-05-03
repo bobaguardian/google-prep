@@ -7,3 +7,31 @@ arr.includes(8); // => false - O(n)
 // need to traverse the entire array to find it - cumbersome to memorize the indices!
 // sooo we use hash maps!
 const arr2 = [['arrows', 'common', 20], ['great sword', 'legendary', 1], ['fruit', 'uncommon', 2]];
+
+const newArr = [,,,]; // -> block of memory: c678-c681, constant lookup b/c we know the range in memory but not efficient w/ lots of data
+
+
+// go through everything in the string and hash it
+// hashing the key goes into time complexity
+const toHash = str => {
+  let res = 0;
+  for (let char of str) {
+    const charCode = char.charCodeAt();
+    res += charCode;
+  }
+
+  return res;
+
+};
+
+console.log(toHash('a')) // => 97
+arr[toHash('a')] = item;
+console.log(arr) // => this item is placed at the 97th index of arr
+
+// we're manipulating with a string => converted to a hash to key into the arr
+arr[toHash('arrows')] = item;
+arr[toHash('arrows')][2] += 20;
+
+const hash = {};
+
+// hash collisions = 2 keys hashing to the same index
