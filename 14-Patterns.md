@@ -72,3 +72,12 @@ Common Problems:
 
 # 6. In-Place Reversal of Linked List
 Reverse links between a set of nodes in a linked list, but in place (using existing node objects without using extra memory).
+Pattern: reverse one node at a time starting with current pointing to head of linked list, and one variable previous pointing to the
+previous node you have proccessed.
+
+Problems:
+- If you're asked to reverse a linked list without using extra memory
+
+Common Problems:
+- Reverse a sub-list (medium)
+- Reverse every k-element sub-list (medium)
