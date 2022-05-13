@@ -68,3 +68,7 @@ Problems:
 Common Problems:
 - Finding the Missing Number
 - Finding the Smallest Missing Positive Number
+
+
+# 6. In-Place Reversal of Linked List
+Reverse links between a set of nodes in a linked list, but in place (using existing node objects without using extra memory).

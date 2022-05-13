@@ -85,3 +85,5 @@ const find = key => {
 
 console.log(find('arrows')) // O(m)
 console.log(find('bees')) // O(1)
+
+// hw = make this a hash class and implement a delete method
